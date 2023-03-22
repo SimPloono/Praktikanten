@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <script src="scripts/page_script.js"></script>
+    <title>Azubi Game</title>
+    <link rel="icon" type="image/x-icon" href="img/stefan_pixel.png">
+</head>
+
+<body>
+    <div class="bg_anim"></div>
+    <div class="navbar">
+        <nav>
+            <ul>
+                <li><a class="page-link clickable" id="start-link" style="text-decoration: underline;" onclick="scrollToElement('start')">Start</a></li>
+                <li><a class="page-link clickable" id="tutorial-link" onclick="scrollToElement('tutorial')">Tutorial</a></li>
+                <li><a class="page-link clickable" id="documentation-link" onclick="scrollToElement('documentation')">Documentation</a></li>
+                <li><a class="page-link clickable" id="contact-link" onclick="scrollToElement('contact')">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="container" onscroll="onScroll()" onload="onScroll()">
+        <div class="slide" id="start">
+            <div class="main-title">
+                <h1>AZUBI Space Invaders</h1>
+            </div>
+            <div class="button-align">
+                <a class="play-button" id="play" type="button" href="game.html" target="_blank">PLAY<br>NOW</a>
+            </div>
+            <div class="scroll-hint clickable" onclick="scrollToElement('tutorial')">
+                Scroll for<br>Tutorial<br>
+                <svg>
+                    <image class="icon" xlink:href="img/arrow_down.svg" width="50" height="50" />
+                </svg>
+            </div>
+        </div>
+        <div class="slide" id="tutorial">
+            <div class="text-body">
+                <h2 class="text-title">Tutorial</h2>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat,
+                sed
+                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                eos
+                et
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                ipsum
+                dolor sit amet.
+                <br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril
+                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                <br>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat,
+                vel
+                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                <br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                facer
+                possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt
+                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat,
+                sed
+                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                eos
+                et
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                ipsum
+                dolor sit amet.
+                <br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril
+                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                <br>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat,
+                vel
+                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                <br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                facer
+                possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt
+                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis.
+            </div>
+        </div>
+        <div class="slide" id="documentation">
+            <div class="text-body">
+                <h2 class="text-title">Documentation</h2>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat,
+                sed
+                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                eos
+                et
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                ipsum
+                dolor sit amet.
+                <br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril
+                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                <br>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat,
+                vel
+                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                <br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                facer
+                possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt
+                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis.Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod
+                tempor invidunt ut
+                labore et
+                dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+                Stet
+                clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+                amet,
+                consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam
+                erat,
+                sed
+                diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no
+                sea
+                takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing
+                elitr,
+                sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero
+                eos
+                et
+                accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                ipsum
+                dolor sit amet.
+                <br>
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum
+                zzril
+                delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                elit,
+                sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                <br>
+                Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip
+                ex ea
+                commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie
+                consequat,
+                vel
+                illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit
+                praesent
+                luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+                <br>
+                Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
+                facer
+                possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                tincidunt
+                ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation
+                ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+
+                Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum
+                dolore eu
+                feugiat nulla facilisis.
+            </div>
+        </div>
+        <div class="slide" id="contact">
+            <div class="text-body">
+                <h2 class="text-title">Contact</h2>
+                <address>
+                    tarent solutions GmbH <br>
+                    Am Dickobskreuz 10 <br>
+                    53121 Bonn <br>
+                    <a href="mailto:azubi-game@tarent.de">azubi-game@tarent.de</a> <br>
+                    <a href="https://www.tarent.de" target="_blank" rel="noopener noreferrer">tarent.de</a>
+                </address>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
